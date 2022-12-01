@@ -125,15 +125,35 @@
                 <body>
                     <h5 style="text-align:left ;" >Nombre</h5>
                     <div class="flexbox-item flexbox-item-6" style="border: 2px solid black;height: 25px;">
-                        <input type="text" class="input-1" name="name" placeholder="name">
+                        <input type="text" class="input-1" name="name" placeholder="nombre" id="nameInput">
                         <br>
                     </div>
                     <h5 style="text-align:left ;" >Comentario</h5>
                     <div class="flexbox-item flexbox-item-6" style="border: 2px solid black;height: 100px;">
-                        <textarea class="text-area-1" name="comentarios" id="" cols="90" rows="6" placeholder="mensaje" ></textarea><br>
+                        <textarea class="text-area-1" name="comentarios" id="comenta" cols="90" rows="6" placeholder="mensaje" ></textarea><br>
                         
                     </div>
-                  
+                    <button onclick="nombre()">Summit</button>
+                    <script>
+                        function nombre(){
+                            var name = document.getElementById("nameInput").value;
+                          
+                            var mensaje = document.getElementById("comenta").value;
+                          
+                        }
+                    </script>
+                    <h3 style="text-align:center ;">Comentarios</h1>
+                    <div class="flexbox-item flexbox-item-7">
+                        <div class="flexbox-item flexbox-item-8">
+                            <script onload="nombre()">
+                                var name2 = name;
+                                name2+"\n";
+                                Mes2=mensaje;
+                                Mes2+"\n";
+                            </script>
+                        </div>
+                        </div>
+                    
                 </body>
                 </div>
             </div>
