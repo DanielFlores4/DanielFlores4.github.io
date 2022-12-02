@@ -71,11 +71,14 @@
 
 .flexbox-conteiner-buton{
     display: flex;
-    
-    flex-direction:row;
-    justify-content: space-between;
+    flex-wrap:wrap ;
+    display: flex;
     align-items: center;
-    background: white;
+    flex-direction:row;
+    justify-content: space-evenly;
+    background: transparent;
+    border: 2px solid transparent;
+    width: 100%;
     margin: 5%;
 }
 .flexbox-conteiner-buton-2{
@@ -275,8 +278,8 @@ p{
 }
 .buttonst1{
     border-radius: 50%;
-    margin: 0px 40px;
-    
+   
+   
 }
 .buttonst1:hover{
     color: blue;
@@ -293,15 +296,14 @@ p{
 .buttonst2{
     border-radius: 50%;
     padding: 45px 42px;
-    margin: 0px 40px;
+    
     
 
 }
 .buttonst3{
     border-radius: 50%;
     padding: 45px 42px;
-    margin: 0px 40px;
-
+   
 }
 .buttonst4{
     margin: 2px 5px;
