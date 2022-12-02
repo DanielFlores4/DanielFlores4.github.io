@@ -278,10 +278,23 @@ p{
     margin: 0px 40px;
     
 }
+.buttonst1:hover{
+    color: blue;
+    background: transparent;
+}
+.buttonst2:hover{
+    color: blue;
+    background: transparent;
+}
+.buttonst3:hover{
+    color: blue;
+    background: transparent;
+}
 .buttonst2{
     border-radius: 50%;
     padding: 45px 42px;
     margin: 0px 40px;
+    
 
 }
 .buttonst3{
