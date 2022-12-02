@@ -121,7 +121,7 @@
             </div>
             <div  class ="flexbox-conteiner">
                 <div class="flexbox-item flexbox-item-5" style="width: 50%;">
-                <body>
+                <body >
                     <h5 style="text-align:left ;" >Nombre</h5>
                     <div class="flexbox-item flexbox-item-6" style="border: 2px solid black;height: 25px;">
                         <input type="text" class="input-1" name="name" placeholder="nombre" id="nameInput">
@@ -129,29 +129,70 @@
                     </div>
                     <h5 style="text-align:left ;" >Comentario</h5>
                     <div class="flexbox-item flexbox-item-6" style="border: 2px solid black;height: 100px;">
-                        <textarea class="text-area-1" name="comentarios" id="comenta" cols="125" rows="6" placeholder="mensaje" style="background: red" ></textarea><br>
+                        <textarea class="text-area-1" name="comentarios" id="comenta" cols="125" rows="6" placeholder="mensaje"></textarea><br>
                         
                     </div>
-                    <button onclick="nombre()">Summit</button>
-                    <script>
-                        function nombre(){
-                            var name = document.getElementById("nameInput").value;
-                          
-                            var mensaje = document.getElementById("comenta").value;
-                          
-                        }
-                    </script>
+                    <button id="summ" onclick="nombreSave()">Summit</button>
+                    
                     <h3 style="text-align:center ;">Comentarios</h1>
                     <div class="flexbox-item flexbox-item-7">
-                        <div class="flexbox-item flexbox-item-8">
-                            <script onload="nombre()">
-                                var name2 = name;
-                                name2+"\n";
-                                Mes2=mensaje;
-                                Mes2+"\n";
-                            </script>
+                        <div class="flexbox-item flexbox-item-8" onload="get()">
+                            <h6 id="Texto1" style="text-align:left ;"></h6>
+                            <br>
+                            <p id="Texto2"></p>
                         </div>
                         </div>
+                        <script>
+                            
+                            var guardarObjeto = localStorage.getItem("guardarObjeto");
+                            var guardarObjeto2 = localStorage.getItem("guardarObjeto2");
+                            function nombreSave(){
+                                var name = document.getElementById("nameInput").value;
+                                var mesaje = document.getElementById("comenta").value;
+                               if (name !='' && mesaje !='')
+                               {
+                                localStorage.setItem(guardarObjeto,name);
+                                document.getElementById("Texto1").innerHTML = name;
+                                
+                               
+                                localStorage.setItem(guardarObjeto2,mesaje);
+                                document.getElementById("Texto2").innerHTML = mesaje;
+                               }
+                               else if (name !=''){
+                                alert("Error nombre vacio");
+                               }
+                               else if (mesaje !=''){
+                                alert("Error mensaje vacio");
+                               }
+                               else {
+                                alert("Error mensaje y nombre vacio");
+                               }
+                                
+                                
+                              
+                            }
+                            function get()
+                            {
+                                localStorage.getItem("guardarObjeto")
+                                document.getElementById("Texto1").innerHTML = guardarObjeto;
+                                localStorage.getItem("guardarObjeto2")
+                                document.getElementById("Texto2").innerHTML = guardarObjeto2;
+                            }
+                            const summ = document.getElementById('summ');
+                            
+                            
+                            summ.addEventListener('click', function handleClick(event) {
+                            // 👇️ if you are submitting a form (prevents page reload)
+                            event.preventDefault();
+
+                            const Input = document.querySelectorAll('#nameInput, #comenta');
+
+                            Input.forEach(Input => {
+                                Input.value = '';
+                            });
+                            });
+                        
+                        </script>
                     
                 </body>
                 </div>
