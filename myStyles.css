@@ -81,6 +81,12 @@
     width: 100%;
     margin: 5%;
 }
+img{
+    max-width:1080px; 
+    max-height:720px;
+    width: 100%;
+    width: 100%;
+}
 .flexbox-conteiner-buton-2{
     display: flex;
     flex-wrap: wrap;
