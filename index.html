@@ -1,0 +1,203 @@
+<!DOCTYPE html >
+<html lang="es" style="background-color:white"> 
+    <head >
+        <meta charset="utf-8"/>
+        <title>Pagina de sofware</title>
+        <meta name="Pagina de modelos" content="contenido de 3 modelos">
+        <meta name="Author" content="Alex,Daniel">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div >
+        
+            <link rel="stylesheet" href="myStyles.css">
+            
+            <div class="flexbox-conteiner">
+                <div class="flexbox-item flexbox-item-1">
+                    <h1><p style="font-size: 50px;">Modelos</p></h1>
+                
+            </div>
+            <head>
+
+                <title>Dropdown</title>
+        
+                <link rel="stylesheet" href="myStyles.css">
+        
+            </head>
+        
+            <body>
+                <div  class ="flexbox-conteiner-buton-2">
+                    <div class="box-test">
+                        <button class="buttonst-2 buttonst4" onclick="window.location.href='Referencias.html';"><p>Referencias</p></button>
+                       
+                    </div>
+                    <div class="box-test-2">
+                        <button class="buttonst-2 buttonst5" onclick="window.location.href='info-desarrolladores.html';"><p>Desarrolladores</p></button>
+                    </div>
+                    
+    
+                </div>
+           
+        </div>
+        
+            </body>
+            <div class="flexbox-slideshow" style="width: 50%;">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        </head>
+                        <body>
+                        <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                        <div class="1">1 / 3</div>
+                        <img src="image/Picture6.png" style="width:100%">
+                        <div class="text"><a href="https://www.researchgate.net/figure/Figura-19-Ciclo-de-vida-del-desarrollo-de-software-en-espiral_fig6_264899327">Referencia</a></div>
+                        </div>
+
+                        <div class="mySlides fade">
+                        <div class="2">2 / 3</div>
+                        <img src="image/8.png" style="width:100%">
+                        <div class="text"><a href="https://www.digite.com/es/agile/que-es-scrum/">Referencia</a></div>
+                        </div>
+
+                        <div class="mySlides fade">
+                        <div class="3">3 / 3</div>
+                        <img src="image/cascadamode.png" style="width:100%">
+                        <div class="text"><a href="https://es.wikipedia.org/wiki/Desarrollo_en_cascada">Referencia</a></div>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+
+                        </div>
+                        <br>
+
+                        <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                        </div>
+
+                        <script src="slidescrip.js">
+                        </script>
+                        
+
+                        </body>
+
+
+            </div>
+        
+            
+            <div  class ="flexbox-conteiner-buton">
+                
+                    <button class="buttonst buttonst1" onclick="window.location.href='Cascada.html';"><p style="text-align:center ;">Modelo<br>Cascada</p></button>
+               
+                    <button class="buttonst buttonst2" onclick="window.location.href='Espiral.html';"><p style="text-align:center ;">Modelo<br>Espiral</p></button>
+                
+                    <button class="buttonst buttonst3" onclick="window.location.href='Scrum.html';"><p style="text-align:center ;">Modelo<br>Scrum</p></button>
+             
+
+            </div>
+            <div class ="flexbox-conteiner-boxes">
+                <div class="flexbox-item flexbox-item-2">
+                    <p style="text-align: right;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
+                         Cum, accusamus dolorum expedita explicabo totam voluptatum voluptas,<br>
+                          hic fugit maiores velit nulla itaque ipsa! <br>
+                          Dolorem accusantium recusandae eaque illo totam iusto!</p>
+                </div >
+                <div class="flexbox-item flexbox-item-2">
+                    <p style="text-align: center;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
+                         Cum, accusamus dolorum expedita explicabo totam voluptatum voluptas,<br>
+                          hic fugit maiores velit nulla itaque ipsa! <br>
+                          Dolorem accusantium recusandae eaque illo totam iusto!</p>
+                </div >
+                <div class="flexbox-item flexbox-item-2">
+                    <p style="text-align: left;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
+                         Cum, accusamus dolorum expedita explicabo totam voluptatum voluptas,<br>
+                          hic fugit maiores velit nulla itaque ipsa! <br>
+                          Dolorem accusantium recusandae eaque illo totam iusto!</p>
+                </div >
+               
+
+            </div>
+            <div  class ="flexbox-conteiner">
+                <div class="flexbox-item flexbox-item-5" style="width: 50%;">
+                <body >
+                    <h5 style="text-align:left ;" >Nombre</h5>
+                    <div class="flexbox-item flexbox-item-6" style="border: 2px solid black;height: 25px;">
+                        <input type="text" class="input-1" name="name" placeholder="nombre" id="nameInput">
+                        <br>
+                    </div>
+                    <h5 style="text-align:left ;" >Comentario</h5>
+                    <div class="flexbox-item flexbox-item-6" style="border: 2px solid black;height: 100px;">
+                        <textarea class="text-area-1" name="comentarios" id="comenta" cols="125" rows="6" placeholder="mensaje"></textarea><br>
+                        
+                    </div>
+                    <button id="summ" onclick="nombreSave()">Summit</button>
+                    
+                    <h3 style="text-align:center ;">Comentarios</h1>
+                    <div class="flexbox-item flexbox-item-7">
+                        <div class="flexbox-item flexbox-item-8" onload="get()">
+                            <h6 id="Texto1" style="text-align:left ;"></h6>
+                            <br>
+                            <p id="Texto2"></p>
+                        </div>
+                        </div>
+                        <script>
+                            
+                            var guardarObjeto = localStorage.getItem("guardarObjeto");
+                            var guardarObjeto2 = localStorage.getItem("guardarObjeto2");
+                            function nombreSave(){
+                                var name = document.getElementById("nameInput").value;
+                                var mesaje = document.getElementById("comenta").value;
+                               if (name !='' && mesaje !='')
+                               {
+                                localStorage.setItem(guardarObjeto,name);
+                                document.getElementById("Texto1").innerHTML = name;
+                                
+                               
+                                localStorage.setItem(guardarObjeto2,mesaje);
+                                document.getElementById("Texto2").innerHTML = mesaje;
+                               }
+                               else if (name !=''){
+                                alert("Error nombre vacio");
+                               }
+                               else if (mesaje !=''){
+                                alert("Error mensaje vacio");
+                               }
+                               else {
+                                alert("Error mensaje y nombre vacio");
+                               }
+                               alert;
+                                
+                                
+                              
+                            }
+                            function get()
+                            {
+                                localStorage.getItem("guardarObjeto")
+                                document.getElementById("Texto1").innerHTML = guardarObjeto;
+                                localStorage.getItem("guardarObjeto2")
+                                document.getElementById("Texto2").innerHTML = guardarObjeto2;
+                            }
+                            const summ = document.getElementById('summ');
+                            
+                            
+                            summ.addEventListener('click', function handleClick(event) {
+                            // 👇️ if you are submitting a form (prevents page reload)
+                            event.preventDefault();
+
+                            const Input = document.querySelectorAll('#nameInput, #comenta');
+
+                            Input.forEach(Input => {
+                                Input.value = '';
+                            });
+                            });
+                        
+                        </script>
+                    
+                </body>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

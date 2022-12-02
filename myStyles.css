@@ -1,0 +1,538 @@
+
+.flexbox-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+}
+.input-1{
+    outline-width: 0;
+    border: none;
+    background: transparent;
+    width:100% 
+     
+}
+.input-2{
+    
+    background: transparent;
+    width:100% 
+    
+     
+}
+.text-area-1
+{
+    outline-width: 0;
+    border: none;
+    background: transparent;
+}
+.text-area-2
+{
+    background: black;
+}
+.flexbox-menus{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background: yellow;
+    width: auto;
+}
+.flexbox-image{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    width: 100%;
+}
+.flexbox-anun{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+}
+.flexbox-conteiner-titulo-butonsAllbox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white   ;
+    width: auto;
+    
+    
+}
+
+.flexbox-conteiner-buton{
+    display: flex;
+    
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    margin: 5%;
+}
+.flexbox-conteiner-buton-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    height: 5%;
+    
+}
+.flexbox-conteiner-buton-3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    height: 86px;
+    
+}
+.flexbox-conteiner-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin: 1%;
+    align-items: center;
+    background: white;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.flexbox-conteiner-titulo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    margin: 2%;
+}
+.conteiner-1 {
+    display: flex;
+    position: relative;
+}
+.flexbox-conteinerall{
+    flex-direction:column;
+}
+.flexbox-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid white;
+}
+.flexbox-test{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid white;
+    
+}
+.flexbox-slideshow{
+    flex-direction:column;
+    margin: auto;
+    height: auto;
+    width: auto;
+    background: white;
+}
+
+
+
+.flexbox-item-1 {
+    margin: 2%;
+    height: auto;
+    width: auto;
+    background: white;
+}
+.flexbox-item-2 {
+    margin: 2%;
+    height: auto;
+    width: 18%;
+    background: white;
+}
+
+.flexbox-item-3 {
+    margin: auto;
+    height: auto;
+    width:  100%;
+    margin: 2%;
+    color: white;
+    border: #f85f73;
+    text-align: center;
+    background: gray;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.flexbox-item-5 {
+    margin: auto;
+    height: auto;
+    width:  100%;
+    margin: 2%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.flexbox-item-6 {
+    margin: auto;
+    height: auto;
+    width:  100%;
+    margin: 2%;
+   
+   
+    text-align: center;
+    
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.flexbox-item-7 {
+    margin: auto;
+    height: fit-content;
+    width:  100%;
+    margin: 2%;
+    border: 2px solid black;
+    text-align: center;
+    
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.flexbox-item-8 {
+    margin: auto;
+    height: fit-content;
+    width:  100%;
+    margin: 2%;
+    border: 2px ;
+    text-align: center;
+    
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.flexbox-item-4{
+    margin: auto;
+    height: auto;
+    width: auto;
+    background: white;
+}
+.flexbox-item-texto{
+    margin: auto;
+    height: auto;
+    width:  100%;
+    margin: 2%;
+    
+   
+    text-align: center;
+    
+}
+.flexbox-item-buttons {
+    margin: auto;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    
+}
+p{
+    font-size: 20px; 
+    text-align: left;
+}
+.buttonst{
+    background-color: rgb(80, 80, 218);
+    color: white;
+    font-size: 20px;
+    border: 2px ;
+    padding: 45px 35px;
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
+.buttonst-2{
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    border: 2px ;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+   
+    
+}
+.buttonst-3{
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    border: 2px ;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.buttonst1{
+    border-radius: 50%;
+    
+}
+.buttonst2{
+    border-radius: 50%;
+    padding: 45px 42px;
+}
+.buttonst3{
+    border-radius: 50%;
+    padding: 45px 42px;
+}
+.buttonst4{
+    margin: 2px 5px;
+    width: min-content;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    background: white;
+   
+}
+.buttonst4:hover{
+   color: rgb(80, 80, 218);
+}
+.buttonst5:hover{
+    color: rgb(80, 80, 218);
+ }
+.box-test{
+    background:transparent;
+}
+.box-test-2{
+    background:transparent;
+}
+.box-test:hover{
+    background: rgb(80, 80, 218);
+}
+.box-test-2:hover{
+    background: rgb(80, 80, 218);
+}
+.buttonst5{
+    margin: 2px 5px;
+    width: min-content;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    background: white;
+   
+}
+.buttonst6{
+    margin: 2px 5px;
+    width: min-content;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    background: white;
+    
+}
+.buttonst6:hover
+{
+    color: blue;
+}
+
+
+
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body{
+
+    width:100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-image: url('https://www.cdgroupcredentialing.com/wp-content/uploads/2019/07/logo-background-shapes-png-5.png');
+
+    background-size: cover;
+
+}
+
+.container {
+
+    width:200px;
+    position: relative;
+    
+
+}
+
+.click{
+
+    background-color: #f85f73;
+
+}
+
+.click:hover {
+
+    background-color: #B71C1C;
+
+}
+
+.click,.links {
+
+    padding: 12px;
+
+    font-size: 1.2em;
+
+    font-family: futura Md BT;
+
+    border: none;
+
+    outline: none;
+
+    width:200px;
+
+    color:#fff;
+
+    transition: 0.3s;
+
+}
+
+.list {
+    display: flex;
+    position: relative;
+
+    transform: scaleY(0);
+
+    transform-origin: top;
+
+    transition: 0.3s;
+    right:85%;
+}
+.list-page {
+    display: flex;
+    position: relative;
+
+    transform: scaleY(0);
+
+    transform-origin: top;
+
+    transition: 0.3s;
+    right:65%;
+}
+
+.newlist {
+
+    transform: scaleY(1);
+
+}
+
+.links {
+
+    background-color: #283c63;
+
+}
+
+.links:hover {
+
+    background-color: #01579B;
+
+    transform: scale(1.1);
+
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+max-width: auto;
+position: relative;
+margin: auto;
+}
+
+
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: gray;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+color: gray;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+
+.numbertext {
+color: black;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+.prev, .next,.text {font-size: 11px}
+}
